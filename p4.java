@@ -1,10 +1,7 @@
-package assignment5;
-
 import java.util.*;
 public class p4 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the value of m: ");
 		int m = sc.nextInt();
@@ -21,7 +18,7 @@ public class p4 {
 		}
 		System.out.println("Factorial of "+i+" is: "+fact);
 		}
-		}
+		sc.close();		}
 		
 	}
 
