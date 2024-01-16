@@ -1,4 +1,4 @@
-package assignment5;
+
 import java.util.*;
 public class hw3 {
 
@@ -31,6 +31,7 @@ public class hw3 {
 		p +=2;
 		}
 		System.out.println("sin ("+x+") = "+sum);
+		obj.close();
 	}
 
 }
