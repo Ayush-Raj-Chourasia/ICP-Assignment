@@ -1,16 +1,14 @@
 import java.util.*;
-public class prime_check 
-{
-    public static void main(String[] args) 
-    {
+public class prime_check {
+    public static void main(String[] args) {
         int i;
-        Scanner in = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter value of n");
-        int n = in.nextInt();
-        for(i=2;i<n/2;i++)
-        {
+        int n = sc.nextInt();
+        for(i=2;i<n/2;i++){
             if(prime(i) && prime(n-i))
-                System.out.println(n+" can be written as "+i+"+"+(n-i));                
+                System.out.println(n+" can be written as "+i+"+"+(n-i));
+        sc.close();        
         }
     }
     public static boolean prime(int n)
@@ -25,6 +23,6 @@ public class prime_check
             return true;
         else 
             return false;
-    
+   
     }
 }
