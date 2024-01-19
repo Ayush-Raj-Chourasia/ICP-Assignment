@@ -7,20 +7,17 @@ public class p4 {
 		int m = sc.nextInt();
 		System.out.println("Enter the value of n: ");
 		int n = sc.nextInt();
-		for(int i = m;i<=n;i++)
-		{
-		long fact = 1;
-		for(int j = i;j>=1;j--)
-		{
-
-		fact *=j;
-
-		}
+		for(int i = m;i<=n;i++){
+			long fact = 1;
+			for(int j = i;j>=1;j--){
+				fact *=j;
+			}
 		System.out.println("Factorial of "+i+" is: "+fact);
 		}
-		sc.close();		}
-		
+		sc.close();
 	}
+		
+}
 
 
 

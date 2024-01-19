@@ -1,0 +1,56 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "DollarPattern",
+            "request": "launch",
+            "mainClass": "DollarPattern",
+            "projectName": "ICP-Assignment_c6fc5859"
+        },
+        {
+            "type": "java",
+            "name": "RamanujanTaxi",
+            "request": "launch",
+            "mainClass": "RamanujanTaxi",
+            "projectName": "ICP-Assignment_c6fc5859"
+        },
+        {
+            "type": "java",
+            "name": "eg1",
+            "request": "launch",
+            "mainClass": "eg1",
+            "projectName": "ICP-Assignment_c6fc5859"
+        },
+        {
+            "type": "java",
+            "name": "prime",
+            "request": "launch",
+            "mainClass": "prime",
+            "projectName": "ICP-Assignment_c6fc5859"
+        },
+        {
+            "type": "java",
+            "name": "prime_check",
+            "request": "launch",
+            "mainClass": "prime_check",
+            "projectName": "ICP-Assignment_c6fc5859"
+        },
+        {
+            "type": "java",
+            "name": "random",
+            "request": "launch",
+            "mainClass": "random",
+            "projectName": "ICP-Assignment_c6fc5859"
+        }
+    ]
+}

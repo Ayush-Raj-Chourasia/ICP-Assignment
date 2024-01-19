@@ -1,17 +1,13 @@
-package assignment5;
 
 public class p5 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		for(int i = 2;i<=15;i++)
-		{
+		for(int i = 2;i<=15;i++){
 
-		System.out.println("Multiplication table of "+i);
-		for(int j = 1;j<=10;j++)
-		{
-		System.out.println(j+" X "+i+" = "+(j*i));
-		}
+			System.out.println("Multiplication table of "+i);
+			for(int j = 1;j<=10;j++){
+				System.out.println(j+" X "+i+" = "+(j*i));
+			}
 
 		}
 	}
