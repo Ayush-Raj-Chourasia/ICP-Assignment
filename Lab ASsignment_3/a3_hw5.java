@@ -39,3 +39,10 @@ public class a3_hw5 {
         sc.close();
     }
 }
+
+//What is your gender (M or F): M
+//Enter your First name: Hello
+//Enter your Last name: World
+//Enter your Age: 20
+//Then I shall call you Mr. Hello World
+
