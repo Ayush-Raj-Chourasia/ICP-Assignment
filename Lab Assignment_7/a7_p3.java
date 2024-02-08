@@ -25,7 +25,7 @@ public class a7_p3 {
         System.out.print("Enter number to be searched: ");
         int num = sc.nextInt();
         int count = 0;
-        for (int i = 0;i<10;i++){
+        for (int i = 0;i<arr.length;i++){
             if (arr[i]==num)
                 count++;
         }
