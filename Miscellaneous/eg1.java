@@ -20,6 +20,7 @@ public class eg1 {
         System.out.println(2+3*3/3-3+3>>1|2);
         int x = 2;
         System.out.println(x+ x++ + ++x/2);
+        System.out.println(5+7+'b');
 	}
 
 }

@@ -6,25 +6,19 @@ public class a4_p5 {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a number: ");
-        int number = sc.nextInt();
+        int n = sc.nextInt();
 
-        int sum = 1; // Sum starts with 1 as 1 is always a factor
 
-        for (int i = 2; i <= Math.sqrt(number); i++) {
-            if (number % i == 0) {
+        int sum = 0;
+        for (int i = 1; i < n; i++) {
+            if (n % i == 0) {
                 sum += i;
-                if (i != number / i) {
-                    sum += number / i;
-                }
             }
         }
-
-        boolean a = (sum == number) && (number > 1);
-
-        if (a) {
-            System.out.println(number + " is a perfect number.");
+        if (sum == n) {
+            System.out.print(n + " is a perfect number");
         } else {
-            System.out.println(number + " is not a perfect number.");
+            System.out.print(n+" is not a perfect number");
         }
 
         sc.close();

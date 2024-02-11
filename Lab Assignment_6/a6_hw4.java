@@ -13,20 +13,22 @@ public class a6_hw4 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter a string: ");
-        String inputString = scanner.nextLine();
+        String str = scanner.nextLine();
 
-        int wordCount = countWords(inputString);
+        int count = countWords(str);
 
-        System.out.println("Number of words in the string: " + wordCount);
+        System.out.println("Number of words in the string: " + count);
         scanner.close();
     }
 
     public static int countWords(String str) {
-        // Split the string using space as the delimiter
-        String[] words = str.split("\\s+");
-
-        // Return the number of words in the string
-        return words.length;
+        int count= 1;
+        for (int i = 0;i<str.length();i++){
+            if (str.charAt(i) == ' ')
+                count++;
+        }
+        return count;
+       
     }
 }
 

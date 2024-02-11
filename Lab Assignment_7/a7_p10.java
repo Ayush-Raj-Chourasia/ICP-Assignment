@@ -39,19 +39,13 @@ public class a7_p10 {
         }
     }
     public static int[] eliminateDuplicates(int[] arr) {
-        int max= arr[0];
-        for(int i =0;i<arr.length;i++){
-            if (arr[i]>max){
-                max= arr[i];
-            }
-        }
+        
         for(int i =0;i<arr.length;i++){
             for (int j=i+1;j<arr.length;j++){
                 if (arr[j]==arr[i]){
                     arr= delete(arr, j);
                 }
             }
-                
         }
        return arr;
     }
